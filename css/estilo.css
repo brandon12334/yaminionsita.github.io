@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: f1;
+    src: url('../imagenes/f1.ttf');
+  }
+  @font-face {
+    font-family: f3;
+    src: url('../imagenes/f3.otf');
+  }
+  body {
+    background-image: url(../imagenes/fe.jpg);
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+  
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      box-shadow: 5;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .text-container {
+      text-align: center;
+      flex-grow: 1;
+    }
+  
+    h1 {
+      color: #000000;
+      font-size: 50px;
+      margin-top: 20px;
+      font-family:f3;
+      text-shadow: white 10px;
+    }
+  
+    p {
+      margin-top: 10px;
+      font-family: f1;
+  
+    }
+  
+    .image-container {
+      margin-left: 20px;
+    }
+  
+    #hello-kitty {
+      width: 200px;
+      height: 200px;
+      transition: transform 1s ease-in-out;
+    }
+  
+    #hello-kitty:hover {
+      transform: rotate(360deg);
+    }
+  
+    .parrafo p{
+      font-size: 20px;
+  
+    }
+  
+   .image-container{
+      display: flexbox;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+  
+  }
+  
+  .contenedor{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  }
+  
+  .fondo{
+    padding: 10px;
+    background-color: #ff97cb;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 4px;
+  
+  }
+  .fondo p{
+    text-align: justify;
+    font-size: 30px;
+  }
+  
+  .image-container img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5% 10%;
+    border: solid 10px;
+    border-color: #ff97cb;
+  
+  }
+  .contenedor01{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    }
+  
+    a {
+      display: inline-block;
+      padding: 50px 50px;
+      background-image: url("https://i2.milimaj.com/i/milliyet/75/869x477/5c8dab9e45d2a04bdc407ac8.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-decoration: none;
+      color: magenta;
+      font-weight: bold;
+    }
+    
+    a:hover {
+      background-color: white;
+      color: pink;
+    }
+  
